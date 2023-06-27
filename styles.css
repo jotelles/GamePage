@@ -36,8 +36,18 @@ h2 {
   margin-bottom: 40px;
 }
 
+.story-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
 .story {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  background-color: rgba(106, 156, 243, 0.2);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .story h3 {
